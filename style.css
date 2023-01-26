@@ -119,15 +119,20 @@ p {
   top: 0;
 }
 
-.home button {
+.home a {
   width: 19.5rem;
   height: 4.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border: 2px solid #ffffff;
   border-radius: 5px;
 
   background-color: transparent;
 
+  font-family: var(--ff-roboto);
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: bold;
@@ -139,7 +144,7 @@ p {
   transition: 200ms ease-in-out;
 }
 
-.home button:hover {
+.home a:hover {
   background-color: white;
   color: #02799d;
 }

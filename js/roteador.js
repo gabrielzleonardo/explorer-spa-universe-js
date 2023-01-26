@@ -5,6 +5,7 @@ export class Router {
     "/exploration": "/pages/exploration.html",
     "/404": "/pages/404.html",
   };
+
   route = (event) => {
     event = event || window.event;
     event.preventDefault();
