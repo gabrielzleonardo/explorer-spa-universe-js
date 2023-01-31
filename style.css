@@ -49,20 +49,8 @@ header nav a {
   white-space: nowrap;
 }
 
-header nav a:hover {
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: var(--fc-primary);
-}
-
 a {
   text-decoration: none;
-}
-
-.current-link {
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: var(--fc-primary);
 }
 
 h1 {
